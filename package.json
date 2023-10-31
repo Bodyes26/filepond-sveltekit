@@ -1,6 +1,6 @@
 {
 	"name": "filepond",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -8,9 +8,9 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.20.4",
-		"svelte": "^4.0.5",
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"@sveltejs/kit": "^1.27.2",
+		"svelte": "^4.2.2",
 		"vite": "^4.4.2"
 	},
 	"type": "module",
@@ -24,7 +24,6 @@
 		"filepond-plugin-image-preview": "^4.6.11",
 		"filepond-plugin-image-resize": "^2.0.10",
 		"filepond-plugin-image-transform": "^3.8.7",
-		"formidable": "^3.5.1",
 		"svelte-filepond": "^0.2.0"
 	}
 }
